@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image:url("/assets/img/tw.png");
+    background: no-repeat url("/assets/img/tw.png");
 
 
 }
