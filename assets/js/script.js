@@ -7,7 +7,7 @@ function adicionarNovaTarefa() {
 
     if (input.value.trim() === '') {
        
-        alert('ADICIONA UMA TAREFA SEU VAGABUNDO');
+        alert('Adicione uma Tarefa');
         return; 
     }
 
