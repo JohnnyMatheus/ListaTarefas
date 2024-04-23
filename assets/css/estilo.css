@@ -8,7 +8,8 @@
 }
 
 body {
-    background: no-repeat url("/assets/img/tw.png");
+   /* background: no-repeat url("/assets/img/tw.png");*/
+   background: url(https://images.hdqwalls.com/wallpapers/nebula-planet-space-2n.jpg);
 
 
 }
