@@ -9,28 +9,31 @@
 
 
 .container {
-    background-color:transparent;
+    background-color: transparent;
     width: 500px;
     border-radius: 10px;
     padding: 20px;
     margin: 100px auto 0;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-#titulo{
+
+#titulo {
     font-family: Roboto;
     text-align: center;
     margin-bottom: 15px;
-   font-weight: bold;
-   color: #043a2f;
+    font-weight: bold;
+    color: #043a2f;
 }
-.input-task{
+
+.input-task {
     border: none;
     border-radius: 25px;
     width: 300px;
     height: 40px;
     padding-left: 10px;
 }
-.button-add-task{
+
+.button-add-task {
     border: none;
     border-radius: 5px;
     height: 40px;
@@ -43,24 +46,24 @@
     font-weight: 700;
 }
 
-.button-add-task:hover{
+.button-add-task:hover {
     opacity: 0.8;
 }
 
-.button-add-task:active{
+.button-add-task:active {
     opacity: 0.6;
 }
 
-.list-tasks{
+.list-tasks {
     width: 100%;
     list-style: none;
     margin-top: 30px;
 
 }
 
-.task{
+.task {
     background-color: #f2f2f2;
-    box-shadow: 1px 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
     height: 50px;
     display: flex;
     align-items: center;
@@ -74,15 +77,15 @@
 img {
     height: 25px;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out ;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.task:hover img{
+.task:hover img {
     opacity: 1;
-   
+
 }
 
-.done{
+.done {
     background-color: #8fac55;
     text-decoration: line-through;
 }
