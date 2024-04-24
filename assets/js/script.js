@@ -26,9 +26,9 @@ function mostrarTarefas() {
         novaLi = novaLi +
             `
     <li class="task ${item.concluida && "done"}">
-         <img src="assets/img/check.svg" alt="check" onclick="concluirTarefa(${posicao})">
+         <img src="assets/imagem/check.svg" alt="check" onclick="concluirTarefa(${posicao})">
              <p>${item.tarefa}</p>
-             <img src="assets/img/delete.svg" alt="deletar" onclick="deletarItem(${posicao})">
+             <img src="assets/imagem/delete.svg" alt="deletar" onclick="deletarItem(${posicao})">
     </li>  
     
     `
