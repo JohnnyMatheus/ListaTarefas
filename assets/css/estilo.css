@@ -5,8 +5,11 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     outline: none;
+   
 }
-
+html,body{
+    min-height: 100%;
+}
 
 .container {
     background-color: transparent;
